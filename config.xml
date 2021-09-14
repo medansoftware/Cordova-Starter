@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.medansoftware.cordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <icon src="res/MeSo.png" />
     <name>Medan Software</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -17,9 +18,50 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <preference name="ShowSplashScreenSpinner" value="false"/>
+        <preference name="FadeSplashScreen" value="true"/>
+
+        <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="hdpi"/>
+        <splash src="res/screen/android/drawable-land-ldpi/screen.png" density="ldpi"/>
+        <splash src="res/screen/android/drawable-land-mdpi/screen.png" density="mdpi"/>
+        <splash src="res/screen/android/drawable-land-xhdpi/screen.png" density="xhdpi"/>
+        <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="xxhdpi"/>
+
+        <!-- Landscape -->
+        <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="land-hdpi" />
+        <splash src="res/screen/android/drawable-land-ldpi/screen.png" density="land-ldpi" />
+        <splash src="res/screen/android/drawable-land-mdpi/screen.png" density="land-mdpi" />
+        <splash src="res/screen/android/drawable-land-xhdpi/screen.png" density="land-xhdpi" />
+        <splash src="res/screen/android/drawable-land-xxhdpi/screen.png" density="land-xxhdpi" />
+        <splash src="res/screen/android/drawable-land-xxxhdpi/screen.png" density="land-xxxhdpi" />
+
+        <!-- Portrait -->
+        <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="port-hdpi" />
+        <splash src="res/screen/android/drawable-land-ldpi/screen.png" density="port-ldpi" />
+        <splash src="res/screen/android/drawable-land-mdpi/screen.png" density="port-mdpi" />
+        <splash src="res/screen/android/drawable-land-xhdpi/screen.png" density="port-xhdpi" />
+        <splash src="res/screen/android/drawable-land-xxhdpi/screen.png" density="port-xxhdpi" />
+        <splash src="res/screen/android/drawable-land-xxxhdpi/screen.png" density="port-xxxhdpi" />
+
+        <!-- Landscape - Dark Mode -->
+        <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="land-night-hdpi" />
+        <splash src="res/screen/android/drawable-land-ldpi/screen.png" density="land-night-ldpi" />
+        <splash src="res/screen/android/drawable-land-mdpi/screen.png" density="land-night-mdpi" />
+        <splash src="res/screen/android/drawable-land-xhdpi/screen.png" density="land-night-xhdpi" />
+        <splash src="res/screen/android/drawable-land-xxhdpi/screen.png" density="land-night-xxhdpi" />
+        <splash src="res/screen/android/drawable-land-xxxhdpi/screen.png" density="land-night-xxxhdpi" />
+
+        <!-- Potrait - Dark Mode -->
+        <splash src="res/screen/android/drawable-land-hdpi/screen.png" density="port-night-hdpi" />
+        <splash src="res/screen/android/drawable-land-ldpi/screen.png" density="port-night-ldpi" />
+        <splash src="res/screen/android/drawable-land-mdpi/screen.png" density="port-night-mdpi" />
+        <splash src="res/screen/android/drawable-land-xhdpi/screen.png" density="port-night-xhdpi" />
+        <splash src="res/screen/android/drawable-land-xxhdpi/screen.png" density="port-night-xxhdpi" />
+        <splash src="res/screen/android/drawable-land-xxxhdpi/screen.png" density="port-night-xxxhdpi" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <preference name="SplashScreenDelay" value="3600" />
 </widget>
