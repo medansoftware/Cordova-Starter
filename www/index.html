@@ -1,51 +1,162 @@
 <!DOCTYPE html>
-<!--
-	Licensed to the Apache Software Foundation (ASF) under one
-	or more contributor license agreements.  See the NOTICE file
-	distributed with this work for additional information
-	regarding copyright ownership.  The ASF licenses this file
-	to you under the Apache License, Version 2.0 (the
-	"License"); you may not use this file except in compliance
-	with the License.  You may obtain a copy of the License at
+<html translate="no">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-language" content="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<title></title>
+</head>
+<body id="main">
+	<!-- side left start -->
+	<ul id="slide-out" class="sidenav">
+		<li>
+			<div class="user-view">
+				<div class="background">
+					<img src="https://materializecss.com/images/office.jpg">
+				</div>
+				<a href="#user"><img class="circle" src="https://materializecss.com/images/yuna.jpg"></a>
+				<a href="#name"><span class="white-text name">Medan Software</span></a>
+				<a href="#email"><span class="white-text email">medansoftware.com@gmail.com</span></a>
+			</div>
+		</li>
+		<li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+		<li><a href="#!">Second Link</a></li>
+		<li><div class="divider"></div></li>
+		<li><a class="subheader">Subheader</a></li>
+		<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+	</ul>
+	<!-- side left end -->
 
-	http://www.apache.org/licenses/LICENSE-2.0
+	<!-- navbar start -->
+	<div class="navbar-fixed">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="left brand-logo brand-logo-mobile">Medan Software</a>
+				<a href="#" data-target="slide-out" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+			</div>
+		</nav>
+	</div>
+	<!-- navbar end -->
 
-	Unless required by applicable law or agreed to in writing,
-	software distributed under the License is distributed on an
-	"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-	KIND, either express or implied.  See the License for the
-	specific language governing permissions and limitations
-	under the License.
--->
-<html>
-	<head>
-		<meta charset="utf-8">
-		<!--
-		Customize this policy to fit your own app's needs. For more guidance, see:
-			https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-		Some notes:
-			* gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-			* https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-			* Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-				* Enable inline JS: add 'unsafe-inline' to default-src
-		-->
-		<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="msapplication-tap-highlight" content="no">
-		<meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
-		<meta name="color-scheme" content="light dark">
-		<link rel="stylesheet" href="css/index.css">
-		<title>Hello World</title>
-	</head>
-	<body>
-		<div class="app">
-			<h1>Apache Cordova</h1>
-			<div id="deviceready" class="blink">
-				<p class="event listening">Connecting to Device</p>
-				<p class="event received">Device is Ready</p>
+	<!-- row content start -->
+	<div class="row">
+		<div class="col l12">
+			<div class="col l12 s12">
+				<ul id="device_info" class="collapsible"></ul>
+			</div>
+			<div class="col l3">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="https://materializecss.com/images/office.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						<p><a href="#">This is a link</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l3">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="https://materializecss.com/images/office.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						<p><a href="#">This is a link</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col l3">
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="https://materializecss.com/images/office.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						<p><a href="#">This is a link</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		<script src="cordova.js"></script>
-		<script src="js/index.js"></script>
-	</body>
+	</div>
+	<!-- row content end -->
+
+	<!-- floating button start -->
+	<div class="fixed-action-btn">
+		<a class="btn-floating btn-large blue left" id="menu"><i class="material-icons">add</i></a>
+		<ul>
+			<li><a href="https://wa.me/+6289616940698" class="btn-floating green darken-1"><i class="fa fa-whatsapp"></i></a></li>
+			<li><a href="tel:+6289616940698" class="btn-floating blue"><i class="fa fa-phone"></i></a></li>
+		</ul>
+	</div>
+
+	<!-- <div class="fixed-action-btn toolbar">
+		<a class="btn-floating btn-large red"><i class="large material-icons">mode_edit</i></a>
+		<ul>
+			<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">insert_chart</i></a></li>
+			<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">format_quote</i></a></li>
+			<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">publish</i></a></li>
+			<li class="waves-effect waves-light"><a href="#!"><i class="material-icons">attach_file</i></a></li>
+		</ul>
+	</div> -->
+	<!-- floating button end -->
+
+	<!-- feature discovery start -->
+	<div class="tap-target" data-target="menu">
+		<div class="tap-target-content">
+			<h5>Direct Contact!</h5>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+			<p>
+				Duis aute irure dolor in reprehenderit in voluptate
+			</p>
+		</div>
+	</div>
+	<!-- feature discovery end -->
+</body>
+<script src="cordova.js"></script>
+<script type="text/javascript" src="https://use.fontawesome.com/830302e520.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pulltorefreshjs/0.1.22/index.umd.min.js"></script>
+<script type="text/javascript" src="assets/js/app.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('span#year-copyright').prepend(new Date().getFullYear()+' '+$('.brand-logo')[0].innerText);
+
+	$('.fixed-action-btn').floatingActionButton({
+		toolbarEnabled: false
+	});
+
+	$('.sidenav').sidenav({
+		edge: 'right'
+	});
+
+	$('.collapsible').collapsible();
+
+	PullToRefresh.init({
+		mainElement: '#main', // above which element?
+		onRefresh: function (done) {
+			window.location.reload(true);
+		},
+		instructionsReleaseToRefresh: ''
+	});
+});
+</script>
 </html>

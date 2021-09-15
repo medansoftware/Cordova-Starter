@@ -1,1 +1,1 @@
-# Cordova Starter - Medan Software
+# Cordova Starter - Android MaterializeCSS

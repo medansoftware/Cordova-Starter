@@ -1,0 +1,68 @@
+.nav-wrapper {
+	background-color: red;
+}
+
+a.brand-logo-mobile {
+	margin-left: 20%;
+}
+
+.tap-target-content > h5 {
+	color: black;
+	word-wrap: break-word;
+	margin-left: 30%;
+	margin-top: -6%;
+	font-weight: bold;
+}
+
+.tap-target-content > p {
+	color: black;
+	word-wrap: break-word;
+	margin-left: 10%;
+}
+
+.fixed-action-btn {
+	bottom: 60px;
+}
+
+.btn-floating.btn-large {
+	width: 66px;
+	height: 66px;
+}
+
+
+li > a.btn-floating  {
+	width: 60px;
+	height: 60px;
+}
+
+li > a.btn-floating i {
+	/*display: inline-block;*/
+	/*text-align: center;*/
+	color: #fff;
+	font-size: 2rem;
+	line-height: 68px;
+}
+
+.btn-large.btn-floating i {
+	/*display: inline-block;*/
+	/*text-align: center;*/
+	color: #fff;
+	font-size: 3rem;
+	line-height: 80px;
+}
+
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+input, textarea {
+	-webkit-user-select: auto !important;
+	-khtml-user-select: auto !important;
+	-moz-user-select: auto !important;
+	-ms-user-select: auto !important;
+	user-select: auto !important;
+}
